@@ -1,0 +1,263 @@
+:root{
+    --primary:#37517E;
+
+}
+#body{
+color:#444444;
+}
+.front{
+    background:var(--primary);
+   
+}
+.buttons-both{
+    display:flex;
+}
+.hov:hover{
+background: gray;
+}
+.cen{
+    display: flex;
+    margin: auto;
+}
+.image{
+    animation: move 1s linear infinite alternate-reverse;
+    transition: all 0.5s;
+}
+.brand img{
+    filter:grayscale(100%);
+    transform: all 0.5s;
+}
+.brand img:hover{
+    filter:grayscale(0%);
+    transform: all 0.5s;
+}
+.about{
+    color:var(--primary);
+}
+.line1{
+    position:relative;
+    width:8%;
+    height:2px;
+    margin:auto;
+    background:gray;
+    border-radius: 50%;
+}
+.line2{
+    position:absolute;
+    width:40%;
+    height:4px;
+    background: blue;
+    border-radius: 50px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.navbar{
+    background: var(--primary);
+}
+.changecolor{
+    color:var(--primary)
+}
+.colors{
+    color:var(--primary);
+    font-size: 2.5rem !important;
+}
+.color{
+    background: var(--primary);
+}
+/* .hovh:hover{
+color:blue;
+margin-top: -10px;
+transition: all 0.6s ;
+} */
+.bgpic{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(	https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.btns{
+    display:flex;
+    border:2px solid gray;
+    padding:0.2rem;
+    width:60px;
+    border-radius: 100px;
+    border:none;
+    color:white;
+    justify-content: center;
+}
+.btns1{
+    background: rgb(40, 136, 168);
+}
+.btns2{
+    color:black;
+    width:70px;
+}
+.btns2:hover{
+    background: rgb(40, 136, 168);
+  
+}
+.btns3{
+    color:black;
+    width:70px;
+}
+.btns3:hover{
+    background: rgb(40, 136, 168);
+    
+}
+.btns4{
+    color:black;
+    width:70px;
+}
+.btns4:hover{
+    background: rgb(40, 136, 168);
+   
+}
+.hrr{
+    width:50px;
+}
+.pad{
+ 
+    padding:8px;
+}
+.textclr{
+    color:var(--primary)
+}
+.iconss{
+    width:1oopx;
+    background: rgb(223, 245, 252);
+    padding:10px;
+    border-radius: 50%;
+    gap:2rem;
+}    
+.iconss:hover{
+    background: rgb(87, 161, 230);
+}
+.radiuss{
+    border-radius: 9px;
+}
+/* .radiuss1:hover{
+    margin-top: -10px;
+    transition:all 0.5s;
+}
+.radiuss2:hover{
+    margin-top: -10px;
+    transition:all 0.5s;
+}
+.radiuss3:hover{
+    margin-top: -10px;
+    transition:all 0.5s;
+}
+.radiuss4:hover{
+    margin-top: -10px;
+    transition:all 0.5s;
+} */
+.bg-white{
+    background: rgb(236, 230, 230);
+}
+.clrmon{
+    color:#47B2E4;
+    margin-bottom: 50px;
+}
+.clrtxt{
+    color:#37517E;
+}
+.bgg{
+    background:#47B2E4 !important;
+    color:white !important;
+}
+.pclr{
+    color:#81bbb6;
+}
+.h2p{
+    color: #37517E;
+}
+.p2{
+    color: #5B5D5C;
+}
+.txthov:hover{
+    color: lightblue;
+}
+.inputsubmit{
+    width: 450px;
+    
+    
+}
+
+.subscribebtn{
+    background: #47B2E4;
+    border:none;
+    margin-left: -30px;
+    width: 7rem;
+}
+.bg1{
+    background:#47B2E4 !important;
+    padding: 0.5rem;
+    width:10rem;
+    color:aliceblue;
+    font-size: 14px;
+    justify-content: center !important;
+    border-radius: 50%;
+}
+.fc{
+    color:#37517E;
+}
+.footerbg{
+    background: #37517E;
+    
+}
+.fcolor{
+    color:#00B4FF;
+}
+
+
+
+
+
+
+
+@keyframes move  {
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-30px);
+    }
+}
+@media only screen and (max-width:600px){
+    .head{
+        font-size:1.7rem;
+        text-align:center;
+    }
+    .head-p{
+        font-size:1.7rem !important;
+        text-align:center;
+    }
+    .front{
+        display: flex !important;
+        /* flex-direction: column-reverse; */
+        height:100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .reverse{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+    .reverse h1{
+        font-size: 2rem;
+    }
+    .reverse p{
+        font-size: 1.3rem !important;
+    }
+    .btnbtn{
+        display:flex !important;
+        text-align:center;
+        justify-content: center;
+
+    }
+    .picmid{
+        display: flex !important;
+        
+    }
+    
+}
